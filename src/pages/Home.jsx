@@ -7,7 +7,7 @@ const LargeButton = styled("a")(() => ({
   display: "grid",
   placeItems: "center",
   aspectRatio: "1",
-  padding: "3rem",
+  padding: "2rem",
   borderRadius: "50%",
   background: "white",
   color: "black",
@@ -38,6 +38,7 @@ const Home = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         margin: "auto",
+        paddingTop: { xs: "2rem", sm: "2rem", md: "1rem" },
       }}
       component={motion.div}
       initial={{ opacity: 0 }}
@@ -69,7 +70,7 @@ const Home = () => {
               sx={{
                 width: "100%",
                 height: "100%",
-                marginTop: { md: 0, sm: "2rem", xs: "1.5rem" },
+                paddingY: { lg: 0, md: 0, sm: "1rem", xs: "1.5rem" },
               }}
               justifyContent="center"
             >

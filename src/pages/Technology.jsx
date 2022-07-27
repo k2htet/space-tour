@@ -58,6 +58,7 @@ const Technology = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         margin: "auto",
+        paddingTop: { xs: "2rem", sm: "2rem", md: "1rem" },
       }}
       component={motion.div}
       initial={{ opacity: 0 }}
@@ -151,7 +152,9 @@ const Technology = () => {
                 <Typography variant="h3" color="white" my={5}>
                   {tech.name}
                 </Typography>
-                <Typography variant="body1">{tech.description}</Typography>
+                <Typography variant="body1" pb={3}>
+                  {tech.description}
+                </Typography>
               </Box>
             </Stack>
           </Box>

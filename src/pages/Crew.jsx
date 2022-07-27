@@ -34,6 +34,7 @@ const Crew = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         margin: "auto",
+        paddingTop: { xs: "2rem", sm: "2rem", md: "1rem" },
       }}
       component={motion.div}
       initial={{ opacity: 0 }}
