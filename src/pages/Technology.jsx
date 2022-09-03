@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Technology = () => {
   const [tech, setTech] = useState([]);
-  const [techId, setTechId] = useState(2);
+  const [techId, setTechId] = useState(1);
   const [screenSize, setScreenSize] = useState(0);
   const [img, setImg] = useState([]);
 
